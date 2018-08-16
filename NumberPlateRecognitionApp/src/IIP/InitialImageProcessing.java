@@ -28,7 +28,7 @@ public class InitialImageProcessing {
 		return m_numberPlateAreaHaarDetector.GetPossibleNumberPlateArea(rawImage);
 	}
 
-	private NumberPlateCutout[] processImageOriginal(Mat rawImage, IipAlgorithms iipAlgorithm) throws CpuException {
+	private NumberPlateCutout[] processImage(Mat rawImage, IipAlgorithms iipAlgorithm) throws CpuException {
 		FaultInjector.TryInject(Consts.IipFaultInjectionProbability);
 		NumberPlateCutout[] result;
 		if (iipAlgorithm == IipAlgorithms.RectangleDetection)
@@ -46,6 +46,7 @@ public class InitialImageProcessing {
 	}
 
 	public NumberPlateCutout[] processImage(Mat rawImage) throws CpuException {
+		//return processImage(rawImage, m_currentIipAlgorithm);
 		return IipAlgorithmStubs.processImage(rawImage, m_currentIipAlgorithm);
 	}
 }

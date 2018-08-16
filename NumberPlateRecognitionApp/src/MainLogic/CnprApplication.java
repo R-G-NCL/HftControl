@@ -21,7 +21,7 @@ public class CnprApplication {
 		String folderName = Consts.FolderWithImages;
 		OperationMode operationMode = OperationMode.Reliability;
 		
-		ArrayList<ImageProcessingSteps> imageProcessingSteps = new ArrayList<ImageProcessingSteps>();
+		//ArrayList<ImageProcessingSteps> imageProcessingSteps = new ArrayList<ImageProcessingSteps>();
 		
 		NumberPlateCutoutQueue cutoutQueue = new NumberPlateCutoutQueue();
 		IipCoordinator initialImageProcessing = new IipCoordinator(folderName, cutoutQueue, Consts.InitialNumberOfThreadsIip);
