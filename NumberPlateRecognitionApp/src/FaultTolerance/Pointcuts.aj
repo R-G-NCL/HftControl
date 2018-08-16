@@ -4,10 +4,10 @@ import org.opencv.core.Mat;
 
 import IIP.IipAlgorithms;
 import IIP.InitialImageProcessing;
+import Images.NumberPlateCutout;
 import MainLogic.NumberPlateCutoutQueue;
 import OCR.OcrAlgorithms;
 import OCR.OpticalCharacterRecognition;
-import StubImages.NumberPlateCutout;
 import Threads.IipCoordinator;
 import Threads.OcrCoordinator;
 import Threads.WorkerThreadCoordinator;

@@ -2,7 +2,7 @@ package IIP;
 
 import org.opencv.core.Mat;
 
-import StubImages.NumberPlateCutout;
+import Images.NumberPlateCutout;
 
 public class NumberPlateRectangleDetector {
 	public NumberPlateCutout[] GetNumberPlateRectangles(Mat rawImage) {

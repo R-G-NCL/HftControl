@@ -2,9 +2,9 @@ package FaultTolerance;
 
 public class QualityInfo {
 	public long ExecutionTime;
-	public StubImages.Quality Quality;
+	public Images.Quality Quality;
 	
-	public QualityInfo(long executionTime, StubImages.Quality quality){
+	public QualityInfo(long executionTime, Images.Quality quality){
 		ExecutionTime = executionTime;
 		Quality = quality;
 	}

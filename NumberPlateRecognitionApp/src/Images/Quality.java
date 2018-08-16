@@ -1,4 +1,4 @@
-package StubImages;
+package Images;
 
 public enum Quality {
 	Error, 

@@ -6,8 +6,8 @@ import org.opencv.core.Mat;
 
 import FaultInjection.CpuException;
 import IIP.IipAlgorithms;
-import StubImages.NumberPlateCutout;
-import StubImages.Quality;
+import Images.NumberPlateCutout;
+import Images.Quality;
 
 public final class IipAlgorithmStubs {
 	public static NumberPlateCutout[] processImage(Mat rawImage, IipAlgorithms iipAlgorithm) throws CpuException {

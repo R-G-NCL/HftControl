@@ -11,8 +11,8 @@ import org.opencv.core.Mat;
 import FaultInjection.CpuException;
 import FaultInjection.FaultInjector;
 import IIP.IipAlgorithms;
+import Images.MatHelper;
 import Settings.Consts;
-import StubImages.MatHelper;
 import Stubs.OcrAlgorithmStubs;
 import net.sourceforge.tess4j.Word;
 

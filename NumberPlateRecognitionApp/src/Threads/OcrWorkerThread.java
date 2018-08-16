@@ -2,11 +2,11 @@ package Threads;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import Images.NumberPlateCutout;
 import MainLogic.NumberPlateCutoutQueue;
 import OCR.OpticalCharacterRecognition;
 import OCR.RecognitionResult;
 import Settings.Consts;
-import StubImages.NumberPlateCutout;
 
 public class OcrWorkerThread extends WorkerThread {
 	private NumberPlateCutoutQueue m_numberPlateCutoutQueue;

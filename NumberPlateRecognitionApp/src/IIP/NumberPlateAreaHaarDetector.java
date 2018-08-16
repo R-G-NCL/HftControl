@@ -9,9 +9,9 @@ import org.opencv.objdetect.CascadeClassifier;
 
 import FaultInjection.CpuException;
 import FaultInjection.FaultInjector;
+import Images.NumberPlateCutout;
+import Images.Quality;
 import Settings.Consts;
-import StubImages.NumberPlateCutout;
-import StubImages.Quality;
 
 public class NumberPlateAreaHaarDetector {
 

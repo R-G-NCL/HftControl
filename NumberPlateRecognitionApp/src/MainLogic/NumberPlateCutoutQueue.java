@@ -3,7 +3,7 @@ package MainLogic;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import StubImages.NumberPlateCutout;
+import Images.NumberPlateCutout;
 
 public class NumberPlateCutoutQueue {
 	private ConcurrentLinkedQueue<NumberPlateCutout> m_queue;

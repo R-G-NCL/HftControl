@@ -1,4 +1,4 @@
-package StubImages;
+package Images;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 

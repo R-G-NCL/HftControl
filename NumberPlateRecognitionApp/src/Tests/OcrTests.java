@@ -7,11 +7,11 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import org.junit.Test;
 import org.opencv.core.Core;
 
+import Images.NumberPlateCutout;
+import Images.Quality;
 import MainLogic.NumberPlateCutoutQueue;
 import OCR.RecognitionResult;
 import Settings.Consts;
-import StubImages.NumberPlateCutout;
-import StubImages.Quality;
 import Threads.OcrCoordinator;
 import net.sourceforge.tess4j.Tesseract;
 

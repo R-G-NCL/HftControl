@@ -4,10 +4,10 @@ import org.opencv.core.Mat;
 
 import IIP.IipAlgorithms;
 import IIP.InitialImageProcessing;
+import Images.NumberPlateCutout;
 import OCR.OcrAlgorithms;
 import OCR.OpticalCharacterRecognition;
 import OCR.RecognitionResult;
-import StubImages.NumberPlateCutout;
 
 public aspect PerformanceAgent {
 	private static IHolisticFaultToleranceController m_hftController;

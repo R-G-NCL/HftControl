@@ -4,8 +4,8 @@ import org.opencv.core.Mat;
 
 import FaultInjection.CpuException;
 import FaultInjection.FaultInjector;
+import Images.NumberPlateCutout;
 import Settings.Consts;
-import StubImages.NumberPlateCutout;
 import Stubs.IipAlgorithmStubs;
 
 public class InitialImageProcessing {

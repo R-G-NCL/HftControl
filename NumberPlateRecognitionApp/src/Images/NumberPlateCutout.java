@@ -1,4 +1,4 @@
-package StubImages;
+package Images;
 
 import java.util.List;
 

@@ -7,9 +7,9 @@ import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs;
 
 import IIP.InitialImageProcessing;
+import Images.NumberPlateCutout;
 import MainLogic.NumberPlateCutoutQueue;
 import Settings.Consts;
-import StubImages.NumberPlateCutout;
 
 public class IipWorkerThread extends WorkerThread {
 	private Queue<File> m_imageFilesQueue;
